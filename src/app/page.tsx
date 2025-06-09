@@ -1,16 +1,32 @@
 "use client";
 
-import Footer from "./components/Footer/Footer";
-import HeroSection from "./components/HeroSection/HeroSection";
 import Navbar from "./components/NavBar/NavBar";
+import HeroSection from "./components/HeroSection/HeroSection";
+import ServicesBlocksSection from "./components/ServicesBlocks/ServicesBlocks";
+import AboutSection from "./components/About/About";
 import ServicesSection from "./components/Services/Services";
+import Appointment from "./components/Appointment/Appointment";
+import Departments from "./components/Departments/Departments";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Doctors from "./components/Doctors/Doctors";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <HeroSection />
-      <ServicesSection />
+      <main className="main">
+        <HeroSection />
+        <ServicesBlocksSection />
+        <AboutSection />
+        <ServicesSection />
+        <Appointment />
+        <Departments />
+        <Testimonials />
+        <Doctors />
+        <Contact />
+      </main>
       <Footer />
     </>
   );

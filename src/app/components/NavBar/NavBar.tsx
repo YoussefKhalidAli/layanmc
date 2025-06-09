@@ -1,25 +1,110 @@
 "use client";
 
 import Image from "next/image";
+
 import "./NavBar.css";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [activeTab, setActiveTab] = useState(0);
   return (
-    <header className="navbar">
-      <div className="navbar-container">
-        <div className="logo">
-          <Image src="/icon.jpg" alt="logo" width={47.25} height={73.35} />
-          <span className="logo-text">Layan Medical Center</span>
+    <header id="header" className="header sticky-top">
+      <div className="topbar d-flex align-items-center">
+        <div className="container d-flex justify-content-center justify-content-md-between">
+          <div className="d-none d-md-flex align-items-center">
+            <i className="bi bi-clock me-1"></i> Monday - Saturday, 8AM to 10PM
+          </div>
+          <div className="d-flex align-items-center">
+            <i className="bi bi-phone me-1"></i> Call us now +971 528920028
+          </div>
         </div>
+      </div>
 
-        <nav className="nav-links">
-          <a href="#services">Services</a>
-          <a href="#footer">About</a>
-          <a href="#contact">Contact</a>
-        </nav>
+      <div className="branding d-flex align-items-center">
+        <div className="container position-relative d-flex align-items-center justify-content-end">
+          <a
+            href="index.html"
+            className="logo d-flex align-items-center me-auto"
+          >
+            <Image src="/icon.jpg" alt="logo" width={40} height={200} />
+            <h1 className="sitename">Layanmc</h1>
+          </a>
 
-        <div className="cta">
-          <a href="#book">Book Now</a>
+          <nav id="navmenu" className="navmenu">
+            <ul>
+              <li>
+                <a
+                  href="#hero"
+                  className={activeTab == 0 ? "active" : ""}
+                  onClick={() => {
+                    setActiveTab(0);
+                  }}
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  className={activeTab == 1 ? "active" : ""}
+                  onClick={() => {
+                    setActiveTab(1);
+                  }}
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  className={activeTab == 2 ? "active" : ""}
+                  onClick={() => {
+                    setActiveTab(2);
+                  }}
+                >
+                  Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#departments"
+                  className={activeTab == 3 ? "active" : ""}
+                  onClick={() => {
+                    setActiveTab(3);
+                  }}
+                >
+                  Departments
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#doctors"
+                  className={activeTab == 4 ? "active" : ""}
+                  onClick={() => {
+                    setActiveTab(4);
+                  }}
+                >
+                  Doctors
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className={activeTab == 5 ? "active" : ""}
+                  onClick={() => {
+                    setActiveTab(5);
+                  }}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+            <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
+
+          <a className="cta-btn" href="index.html#appointment">
+            Make an Appointment
+          </a>
         </div>
       </div>
     </header>
