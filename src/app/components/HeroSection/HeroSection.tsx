@@ -7,9 +7,10 @@ import { useEffect } from "react";
 
 const carouselItems = [
   {
-    title: "Welcome to Layanmc",
-    description: "Welcome Slide",
-    image: "/banner.jpg",
+    title: "Welcome to Layan Medical Center",
+    description:
+      "Your health, beauty, and well-being are our top priority. Explore our specialized services designed to help you feel your best—inside and out.",
+    image: "/banner.jpeg",
   },
   {
     title: "Dental Clinic",
