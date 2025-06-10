@@ -18,9 +18,7 @@ export default function ServiceBlock({
           <i className={icon}></i>
         </div>
         <h4>
-          <a href="" className="stretched-link">
-            {title}
-          </a>
+          <p className="stretched-link">{title}</p>
         </h4>
         <p>{description}</p>
       </div>

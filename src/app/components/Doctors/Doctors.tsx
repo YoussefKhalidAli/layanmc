@@ -1,5 +1,4 @@
 import { DoctorProps } from "@/app/types";
-import React from "react";
 import Doctor from "./Doctor";
 
 export default function Doctors() {
@@ -29,10 +28,10 @@ export default function Doctors() {
   return (
     <section id="doctors" className="doctors section light-background">
       <div className="container section-title" data-aos="fade-up">
-        <h2>Doctors</h2>
+        <h2>Meet Our Expert Medical Team</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Dedicated professionals committed to providing compassionate,
+          personalized, and high-quality care across every specialty.
         </p>
       </div>
 

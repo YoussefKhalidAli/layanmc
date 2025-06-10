@@ -7,22 +7,33 @@ import { useEffect } from "react";
 
 const carouselItems = [
   {
-    title: "Welcome to Medicio",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Welcome to Layanmc",
+    description: "Welcome Slide",
     image: "/banner.jpg",
   },
   {
-    title: "At vero eos et accusamus",
+    title: "Dental Clinic",
     description:
-      "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
-    image: "/logo.jpg",
+      "Sculpted to perfection — elite slimming treatments for the discerning client.",
+    image: "/dental-clinic.jpg",
   },
   {
-    title: "Temporibus autem quibusdam",
+    title: "Dermatology Clinic",
     description:
-      "Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
-    image: "/banner.jpg",
+      "Clearer, healthier skin — guided by professional dermatologists.",
+    image: "/derma-clinic.jpg",
+  },
+  {
+    title: "Slimming Clinic",
+    description:
+      "Shape your journey — science-backed weight loss support for a healthier you.",
+    image: "/slimming-clinic.jpg",
+  },
+  {
+    title: "Cupping Clinic",
+    description:
+      "Ancient healing, modern luxury — indulge in the rejuvenating art of cupping.",
+    image: "/cupping-clinic.jpg",
   },
 ];
 

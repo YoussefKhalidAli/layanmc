@@ -5,30 +5,31 @@ import ServiceBlock from "./ServiceBlock";
 
 const services: ServiceProps[] = [
   {
-    icon: "fas fa-heartbeat icon",
-    title: "Lorem Ipsum",
+    icon: "fas fa-tooth icon",
+    title: "Dental Care",
     description:
-      "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi",
+      "Comprehensive dental services from routine cleanings to advanced cosmetic treatments tailored for a healthy, confident smile.",
   },
   {
-    icon: "fas fa-pills icon",
-    title: "Lorem Ipsum",
+    icon: "fas fa-sun icon",
+    title: "Dermatology",
     description:
-      "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi",
+      "Personalized skin care solutions for all ages, including treatment of acne, eczema, and cosmetic dermatology procedures.",
   },
   {
-    icon: "fas fa-dna icon",
-    title: "Lorem Ipsum",
+    icon: "fas fa-weight icon",
+    title: "Slimming Programs",
     description:
-      "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi",
+      "Medically guided weight management programs designed to help you achieve your wellness goals safely and effectively.",
   },
   {
-    icon: "fas fa-heartbeat icon",
-    title: "Lorem Ipsum",
+    icon: "fas fa-spa icon",
+    title: "Cupping Therapy",
     description:
-      "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi",
+      "Traditional cupping treatments that promote circulation, reduce tension, and support overall physical well-being.",
   },
 ];
+
 export default function ServicesBlocksSection() {
   return (
     <section id="featured-services" className="featured-services section">

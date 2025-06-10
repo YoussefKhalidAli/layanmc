@@ -12,7 +12,8 @@ const Navbar = () => {
       <div className="topbar d-flex align-items-center">
         <div className="container d-flex justify-content-center justify-content-md-between">
           <div className="d-none d-md-flex align-items-center">
-            <i className="bi bi-clock me-1"></i> Monday - Saturday, 8AM to 10PM
+            <i className="bi bi-clock me-1"></i> Saturday - Thursday, 11AM to
+            9PM
           </div>
           <div className="d-flex align-items-center">
             <i className="bi bi-phone me-1"></i> Call us now +971 528920028
@@ -26,7 +27,13 @@ const Navbar = () => {
             href="index.html"
             className="logo d-flex align-items-center me-auto"
           >
-            <Image src="/icon.jpg" alt="logo" width={40} height={200} />
+            <Image
+              src="/icon.jpg"
+              alt="logo"
+              width={30}
+              height={450}
+              style={{ borderRadius: "40%" }}
+            />
             <h1 className="sitename">Layanmc</h1>
           </a>
 
@@ -56,7 +63,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#services"
+                  href="#featured-services"
                   className={activeTab == 2 ? "active" : ""}
                   onClick={() => {
                     setActiveTab(2);
@@ -65,46 +72,9 @@ const Navbar = () => {
                   Services
                 </a>
               </li>
-              <li>
-                <a
-                  href="#departments"
-                  className={activeTab == 3 ? "active" : ""}
-                  onClick={() => {
-                    setActiveTab(3);
-                  }}
-                >
-                  Departments
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#doctors"
-                  className={activeTab == 4 ? "active" : ""}
-                  onClick={() => {
-                    setActiveTab(4);
-                  }}
-                >
-                  Doctors
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#contact"
-                  className={activeTab == 5 ? "active" : ""}
-                  onClick={() => {
-                    setActiveTab(5);
-                  }}
-                >
-                  Contact
-                </a>
-              </li>
             </ul>
             <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
           </nav>
-
-          <a className="cta-btn" href="index.html#appointment">
-            Make an Appointment
-          </a>
         </div>
       </div>
     </header>

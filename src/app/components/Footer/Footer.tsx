@@ -1,15 +1,18 @@
-import React from "react";
-
 export default function Footer() {
   return (
-    <footer id="footer" className="footer light-background">
+    <footer id="footer" className="footer dark-background">
       <div className="container footer-top">
-        <div className="row gy-4">
+        <div className="inner-container row gy-4">
           <div className="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" className="logo d-flex align-items-center">
-              <span className="sitename">Medicio</span>
+            <a
+              href="index.html"
+              className="logo d-flex align-items-center"
+              style={{ margin: "0" }}
+            >
+              <span className="sitename">Layanmc</span>
             </a>
             <div className="footer-contact pt-3">
+              <strong>Location</strong>
               <p>Street 13A, Oud Metha</p>
               <p>Dubai - United Arab Emirates Dubai, United Arab Emirates</p>
               <p className="mt-3">
@@ -21,21 +24,24 @@ export default function Footer() {
               </p>
             </div>
             <div className="social-links d-flex mt-4">
-              <a href="" target="_blank">
+              {/* <a href="" target="_blank">
                 <i className="bi bi-twitter-x"></i>
-              </a>
+              </a> */}
               <a
                 href="https://www.facebook.com/people/Layan-Medical-Center/61571346552026/"
                 target="_blank"
               >
                 <i className="bi bi-facebook"></i>
               </a>
-              <a href="" target="_blank">
+              <a
+                href="https://www.instagram.com/layanmedicalcenter/"
+                target="_blank"
+              >
                 <i className="bi bi-instagram"></i>
               </a>
-              <a href="" target="_blank">
+              {/* <a href="" target="_blank">
                 <i className="bi bi-linkedin"></i>
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -46,16 +52,13 @@ export default function Footer() {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">About us</a>
+                <a href="#about">About us</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a href="#featured-services">Services</a>
               </li>
               <li>
-                <a href="#">Terms of service</a>
-              </li>
-              <li>
-                <a href="#">Privacy policy</a>
+                <a href="#doctors">Doctors</a>
               </li>
             </ul>
           </div>
@@ -64,61 +67,19 @@ export default function Footer() {
             <h4>Our Services</h4>
             <ul>
               <li>
-                <a href="#">Dental</a>
+                <a href="#featured-services">Dental</a>
               </li>
               <li>
-                <a href="#">Skin Care</a>
+                <a href="#featured-services">Skin Care</a>
               </li>
               <li>
-                <a href="#">Dermatology</a>
+                <a href="#featured-services">Dermatology</a>
               </li>
               <li>
-                <a href="#">Cupping</a>
+                <a href="#featured-services">Cupping</a>
               </li>
               <li>
-                <a href="#"></a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
-            <ul>
-              <li>
-                <a href="#">Molestiae accusamus iure</a>
-              </li>
-              <li>
-                <a href="#">Excepturi dignissimos</a>
-              </li>
-              <li>
-                <a href="#">Suscipit distinctio</a>
-              </li>
-              <li>
-                <a href="#">Dilecta</a>
-              </li>
-              <li>
-                <a href="#">Sit quas consectetur</a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
-            <ul>
-              <li>
-                <a href="#">Ipsam</a>
-              </li>
-              <li>
-                <a href="#">Laudantium dolorum</a>
-              </li>
-              <li>
-                <a href="#">Dinera</a>
-              </li>
-              <li>
-                <a href="#">Trodelas</a>
-              </li>
-              <li>
-                <a href="#">Flexo</a>
+                <a href="#featured-services"></a>
               </li>
             </ul>
           </div>

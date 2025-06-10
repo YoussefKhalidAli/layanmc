@@ -10,10 +10,7 @@ export default function AboutSection() {
           About Us
           <br />
         </h2>
-        <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
-        </p>
+        <p>Dedicated to your well-being, confidence, and holistic health.</p>
       </div>
 
       <div className="container">
@@ -23,52 +20,56 @@ export default function AboutSection() {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <Image src="/logo.jpg" width={600} height={500} alt="" />
-            <a
-              href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+            <Image
+              src="/logo.jpg"
+              width={600}
+              height={500}
+              alt="Layan Medical Center Logo"
+            />
+            {/* <a
+              href=""
               className="glightbox pulsating-play-btn"
-            ></a>
+            ></a> */}
           </div>
           <div
             className="col-lg-6 content"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <h3>
-              Voluptatem dignissimos provident quasi corporis voluptates sit
-              assumenda.
-            </h3>
+            <h3>Comprehensive Care in a Modern and Welcoming Environment</h3>
             <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              At Layan Medical Center, we strive to provide exceptional care
+              across a range of medical and wellness services, tailored to meet
+              your individual needs.
             </p>
             <ul>
               <li>
                 <i className="bi bi-check2-all"></i>{" "}
                 <span>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Specialized services in dental care, dermatology, slimming,
+                  and cupping therapy.
                 </span>
               </li>
               <li>
                 <i className="bi bi-check2-all"></i>{" "}
                 <span>
-                  Duis aute irure dolor in reprehenderit in voluptate velit.
+                  A patient-first approach with experienced professionals and
+                  modern equipment.
                 </span>
               </li>
               <li>
                 <i className="bi bi-check2-all"></i>{" "}
                 <span>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor in reprehenderit in voluptate trideta
-                  storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                  Safe, effective, and personalized treatments designed to
+                  improve your quality of life.
                 </span>
               </li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident
+              Whether you&apos;re looking to enhance your smile, care for your
+              skin, achieve wellness goals, or explore traditional healing
+              methods, our team is here to guide you every step of the way. Your
+              health is our mission.
             </p>
           </div>
         </div>
