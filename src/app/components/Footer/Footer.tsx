@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer id="footer" className="footer light-background">
+    <footer id="footer" className="footer dark-background">
       <div className="container footer-top">
         <div className="inner-container row gy-4">
           <div className="col-lg-4 col-md-6 footer-about">
