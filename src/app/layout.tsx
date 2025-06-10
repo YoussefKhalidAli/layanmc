@@ -6,6 +6,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import AOSProvider from "@/app/components/AOSProvider";
+import FixedIcon from "./components/FixedIcon/FixedIcon";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <AOSProvider />
+        <FixedIcon />
         {children}
       </body>
     </html>

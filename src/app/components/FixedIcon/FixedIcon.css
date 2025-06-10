@@ -1,0 +1,13 @@
+.fixed-icon {
+  position: fixed;
+  bottom: 5vh;
+  right: 5vw;
+  font-size: 2rem;
+  color: green;
+  z-index: 100;
+}
+
+.fixed-icon:hover {
+  font-size: 2.5rem;
+  color: green;
+}
