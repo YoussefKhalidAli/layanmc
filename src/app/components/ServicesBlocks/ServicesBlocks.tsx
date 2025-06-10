@@ -32,7 +32,10 @@ const services: ServiceProps[] = [
 
 export default function ServicesBlocksSection() {
   return (
-    <section id="featured-services" className="featured-services section">
+    <section
+      id="featured-services"
+      className="featured-services section light-background"
+    >
       <div className="container">
         <div className="row gy-4">
           {services.map((service, index) => (

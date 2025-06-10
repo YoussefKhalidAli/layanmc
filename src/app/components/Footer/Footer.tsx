@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer id="footer" className="footer dark-background">
+    <footer id="footer" className="footer light-background">
       <div className="container footer-top">
         <div className="inner-container row gy-4">
           <div className="col-lg-4 col-md-6 footer-about">
@@ -16,11 +16,10 @@ export default function Footer() {
               <p>Street 13A, Oud Metha</p>
               <p>Dubai - United Arab Emirates Dubai, United Arab Emirates</p>
               <p className="mt-3">
-                <strong>Phone:</strong> <span>+971 528920028 </span>
-                <span> +971 524668988</span>
+                <strong>Phone:</strong>&nbsp;<span>+971 42619871 </span>
               </p>
               <p>
-                <strong>Email:</strong> <span>info@example.com</span>
+                <strong>Email:</strong> <span>info@layanmc.ae</span>
               </p>
             </div>
             <div className="social-links d-flex mt-4">

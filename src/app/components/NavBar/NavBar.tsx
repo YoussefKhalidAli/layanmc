@@ -16,7 +16,7 @@ const Navbar = () => {
             9PM
           </div>
           <div className="d-flex align-items-center">
-            <i className="bi bi-phone me-1"></i> Call us now +971 528920028
+            <i className="bi bi-phone me-1"></i> Call us now +971 42619871
           </div>
         </div>
       </div>

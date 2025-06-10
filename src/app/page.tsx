@@ -8,8 +8,8 @@ import AboutSection from "./components/About/About";
 // import Appointment from "./components/Appointment/Appointment";
 // import Departments from "./components/Departments/Departments";
 // import Testimonials from "./components/Testimonials/Testimonials";
-import Doctors from "./components/Doctors/Doctors";
-// import Contact from "./components/Contact/Contact";
+// import Doctors from "./components/Doctors/Doctors";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <ServicesBlocksSection />
-        <Doctors />
+        <Contact />
       </main>
       <Footer />
     </>

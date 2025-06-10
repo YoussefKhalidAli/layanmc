@@ -11,15 +11,14 @@ export default function Contact() {
       <div className="mb-5" data-aos="fade-up" data-aos-delay="200">
         <iframe
           style={{ border: 0, width: "100%", height: "370px" }}
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11593.469124921257!2d55.3047775!3d25.239126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42d258d31831%3A0xf10568f2b52e566e!2sOud%20Metha%2C%20Dubai%2C%20United%20Arab%20Emirates!5e0!3m2!1sen!2sus!4v1677038040669!5m2!1sen!2sus
-"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.153203568896!2d55.306438!3d25.237438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f434d9adcbe8d%3A0x57c04a993165da30!2sLayan%20Medical%20Center!5e0!3m2!1sen!2sae!4v1718039225987!5m2!1sen!2sae"
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
 
-      <div className="container" data-aos="fade-up" data-aos-delay="100">
+      {/* <div className="container" data-aos="fade-up" data-aos-delay="100">
         <div className="row gy-4">
           <div className="col-lg-6 ">
             <div className="row gy-4">
@@ -126,9 +125,9 @@ export default function Contact() {
                 </div>
               </div>
             </form>
-          </div>
+          </div> 
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
